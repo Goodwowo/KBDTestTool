@@ -8,12 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-//! Project version number for KBDTestTool.
-FOUNDATION_EXPORT double KBDTestToolVersionNumber;
+@interface KBDTestTool:NSObject
 
-//! Project version string for KBDTestTool.
-FOUNDATION_EXPORT const unsigned char KBDTestToolVersionString[];
++ (void)start;
 
-// In this header, you should import all the public headers of your framework using statements like #import <KBDTestTool/PublicHeader.h>
-
+@end
 
